@@ -5,21 +5,22 @@ using UnityEngine;
 public class MoneyManager : MonoBehaviour
 {
     public float money;
-    public UIMANAGER uiMANAGER;
+    public UIManager uiManager;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        uiManager.UpdateMoneyTxt(money.ToString());
     }
 
-   public void UpdateMoney(float moneyToAdd)
+    public void UpdateMoney(float moneyToAdd)
     {
-        if(money + moneyToAdd < 0)
+        if (money + moneyToAdd < 0)
         {
-            Debug.Log("no te alcanza");
+            Debug.Log("No te alcanza");
             return;
         }
         money += moneyToAdd;
+        uiManager.UpdateMoneyTxt(money.ToString());
     }
 }

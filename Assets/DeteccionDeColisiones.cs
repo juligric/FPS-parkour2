@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class deteccionDeColiciones : MonoBehaviour
+public class DeteccionDeColisiones : MonoBehaviour
 {
-    private void OnCollisionEnter(Collision collision)
+    void OnCollisionEnter(Collision collision)
     {
         Debug.Log("Contacto");
         Destroy(collision.gameObject);
