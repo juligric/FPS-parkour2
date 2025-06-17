@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 170076734}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.4465782, g: 0.49641252, b: 0.5748167, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -531,7 +531,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_UiScaleMode: 1
-  m_ReferencePixelsPerUnit: 100
+  m_ReferencePixelsPerUnit: 4000
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
   m_ScreenMatchMode: 0
@@ -1452,7 +1452,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d4505b4d87bd3034aa6a43d8d594d48e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  money: 50
+  money: 4000
   uiManager: {fileID: 1897819083}
 --- !u!114 &1752423632
 MonoBehaviour:
@@ -1727,7 +1727,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4670dfa463fc63d4d9dc183bfd2c69ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  txtMoney: {fileID: 826299309}
 --- !u!4 &1897819084
 Transform:
   m_ObjectHideFlags: 0
@@ -1892,11 +1891,11 @@ PrefabInstance:
         type: 3}
       propertyPath: moneyManager
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1752423627}
     - target: {fileID: 2507501908003609810, guid: 264011dcde37c7c4b9279d283d8ee195,
         type: 3}
       propertyPath: cost
-      value: 19
+      value: 2000
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 264011dcde37c7c4b9279d283d8ee195, type: 3}
